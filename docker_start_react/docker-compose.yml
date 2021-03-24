@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  node:
+    build: .
+    volumes:
+      - .:/myapp
+    environment:
+      PORT: "4000"
+    ports:
+      - "4000:4000"
+    stdin_open: true
+    tty: true

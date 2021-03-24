@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  node:
+    build:
+      context: .
+    volumes:
+      - .:/myapp
+    command: [yarn, create, react-app, myapp]

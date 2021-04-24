@@ -6,4 +6,4 @@ services:
       context: .
     volumes:
       - .:/myapp
-    command: [yarn, create, react-app, myapp]
+    command: [yarn, create, react-app, myapp, --template, typescript]

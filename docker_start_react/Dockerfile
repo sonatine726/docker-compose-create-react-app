@@ -1,8 +1,6 @@
 FROM node:15.10.0
 
 WORKDIR /myapp
-COPY ["./package.json", "./yarn.lock", "./"]
-RUN yarn install
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/

@@ -5,8 +5,8 @@ services:
     volumes:
       - .:/myapp
     environment:
-      PORT: "4000"
+      PORT: "4001"
     ports:
-      - "4000:4000"
+      - "4001:4001"
     stdin_open: true
     tty: true

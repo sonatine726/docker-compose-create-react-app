@@ -8,4 +8,4 @@ RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
 
 CMD ["yarn", "start"]
-EXPOSE 4000
+EXPOSE 4001
